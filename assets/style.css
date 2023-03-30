@@ -1,3 +1,8 @@
+* {
+  scroll-behavior: smooth;
+
+}
+
 header {
     text-align: center;
     background-color: antiquewhite;
@@ -22,6 +27,11 @@ header {
     padding: 0;
     overflow: hidden;
     background-color: #CD7F32;
+  }
+
+  ul#nav.about-me {
+    background-color: #36454F;
+
   }
    li.nav {
     float: left;
@@ -69,14 +79,34 @@ header {
     color: beige;
     border: 0 auto;
     margin: 50px 0 0 0;
+    padding: 10px;
   }
 
-  .about {
+  #about-me {
     display: flex;
     background-color: #CD7F32;
     color:beige;
     border: 0 auto;
     margin: 0 auto;
+    padding: 10px;
+  }
+
+  #about {
+    display: flex;
+    background-color: #CD7F32;
+    color:beige;
+    border: 0 auto;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  #work {
+    display: flex;
+    background-color: #CD7F32;
+    color:beige;
+    border: 0 auto;
+    margin: 20px 0 0 0;
+    padding: 10px;
   }
 
   .projects {
@@ -89,11 +119,38 @@ header {
     justify-content: center;
     margin: 0 auto;
     border: 0 auto;
+    padding: 5px;
   }
 
   .place-holder {
-    display: block;
-    margin-left: 10px;
-    margin-right: auto;
-    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 0;
+    transition: transform .2s;
+  }
+
+  .place-holder:hover {
+    transform: scale(1.05);
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    border: 0 auto;
+    margin-bottom: 0 auto;
+    color: white;
+    background-color: #CD7F32;
+    font-size: large;
+    list-style-type: none;
+    padding: 10px;  
+  }
+
+  #contact-me {
+    display: flex;
+    background-color: #CD7F32;
+    color: beige;
+    border: 0 auto;
+    margin: 20px 0 0 0;
+    padding: 10px;
   }
