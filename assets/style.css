@@ -5,7 +5,7 @@
 
 header {
     text-align: center;
-    background-color: antiquewhite;
+    background-color: beige;
     border: 0 auto;
     margin: 0 auto;
  }
@@ -19,6 +19,7 @@ header {
   padding: 50px 10px;
   border: 0 auto;
   margin: 0 auto;
+  font-size: xx-large;
  }
  
  ul#nav {
@@ -42,7 +43,7 @@ header {
   }
    li.nav a {
     display: block;
-    color: white;
+    color: beige;
     text-align: center;
     margin: 0;
     padding: 14px 16px;
@@ -50,7 +51,7 @@ header {
   }
    li.nav:hover {
     background-color: #7B3F00;
-    color: white;
+    color: beige;
   }
   
   #portrait {
@@ -134,16 +135,16 @@ header {
     transform: scale(1.05);
   }
 
-  #contact {
+  .contact {
     display: flex;
-    flex-direction: column;
-    border: 0 auto;
-    margin-bottom: 0 auto;
-    color: white;
-    background-color: #CD7F32;
-    font-size: large;
-    list-style-type: none;
-    padding: 10px;  
+    flex-direction: row;
+    color: beige;
+    background-color:#CD7F32;
+    align-items: center;
+    justify-content: center;
+   line-height: 2.5;
+   text-decoration: none;
+   padding-left: 200px;
   }
 
   #contact-me {
